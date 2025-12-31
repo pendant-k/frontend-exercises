@@ -5,6 +5,13 @@
     --color-slate-900: hsl(218, 44%, 22%);
 }
 
+@media screen and (max-width: 480px) {
+    .qr-code {
+        width: 100%;
+        max-width: none;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    padding:0 1rem;
 }
 
 /* QR */
