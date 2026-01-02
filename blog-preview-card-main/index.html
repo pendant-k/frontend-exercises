@@ -11,19 +11,46 @@
             sizes="32x32"
             href="./assets/images/favicon-32x32.png"
         />
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
 
         <title>Frontend Mentor | Blog preview card</title>
-
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <style>
-            .attribution {
-                font-size: 11px;
-                text-align: center;
-            }
-            .attribution a {
-                color: hsl(228, 45%, 44%);
-            }
-        </style>
     </head>
-    <body></body>
+    <body>
+        <main class="container">
+            <div class="blog-card">
+                <!-- blog preview image -->
+                <img
+                    src="./assets/images/illustration-article.svg"
+                    alt="Blog Preview"
+                    class="blog-card-img"
+                />
+                <!-- blog preview content -->
+                <div class="blog-card-content">
+                    <section class="blog-card-header">
+                        <!-- blog tag -->
+                        <div class="blog-card-tag">Learning</div>
+                        <!-- date label -->
+                        <span class="blog-card-date"
+                            >Published 21 Dec 2023</span
+                        >
+                    </section>
+                    <section class="blog-card-body">
+                        <h2>HTML & CSS foundations</h2>
+                        <p>
+                            These languages are the backbone of every website,
+                            defining structure, content, and presentation.
+                        </p>
+                    </section>
+                    <section class="blog-card-footer">
+                        <img
+                            src="./assets/images/image-avatar.webp"
+                            alt="profile image"
+                        />
+                        <span>Greg Hoaper</span>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
